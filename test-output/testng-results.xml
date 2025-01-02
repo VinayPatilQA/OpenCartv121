@@ -1,43 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-01T23:05:19 IST" name="Suite" finished-at="2025-01-01T23:05:51 IST" duration-ms="31557">
+  <suite started-at="2025-01-02T22:48:43 IST" name="Default suite" finished-at="2025-01-02T22:48:43 IST" duration-ms="153">
     <groups>
-      <group name="regression">
-        <method signature="TC_002_LoginAccountTest.LoginTest1()[pri:0, instance:testCases.TC_002_LoginAccountTest@6025e1b6]" name="LoginTest1" class="testCases.TC_002_LoginAccountTest"/>
-      </group> <!-- regression -->
-      <group name="master">
-        <method signature="TC_002_LoginAccountTest.LoginTest1()[pri:0, instance:testCases.TC_002_LoginAccountTest@6025e1b6]" name="LoginTest1" class="testCases.TC_002_LoginAccountTest"/>
-      </group> <!-- master -->
     </groups>
-    <test started-at="2025-01-01T23:05:19 IST" name="master.xml" finished-at="2025-01-01T23:05:51 IST" duration-ms="31557">
-      <class name="testCases.TC_002_LoginAccountTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginAccountTest@6025e1b6]" started-at="2025-01-01T23:05:19 IST" name="setUp" finished-at="2025-01-01T23:05:42 IST" duration-ms="22578" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-01-02T22:48:43 IST" name="Default test" finished-at="2025-01-02T22:48:43 IST" duration-ms="153">
+      <class name="testCases.TC_004_SimpleTestforGit">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_SimpleTestforGit@702657cc]" started-at="2025-01-02T22:48:43 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1735838323616" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1737213949\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1737213949\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginTest1()[pri:0, instance:testCases.TC_002_LoginAccountTest@6025e1b6]" started-at="2025-01-01T23:05:42 IST" name="LoginTest1" finished-at="2025-01-01T23:05:50 IST" duration-ms="7934" status="PASS">
+        <test-method signature="test()[pri:0, instance:testCases.TC_004_SimpleTestforGit@702657cc]" started-at="2025-01-02T22:48:43 IST" name="test" finished-at="2025-01-02T22:48:43 IST" duration-ms="9" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1737213949\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1737213949\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginAccountTest@6025e1b6]" started-at="2025-01-01T23:05:50 IST" name="tearDown" finished-at="2025-01-01T23:05:51 IST" duration-ms="932" status="PASS">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_SimpleTestforGit@702657cc]" started-at="2025-01-02T22:48:43 IST" name="tearDown" finished-at="2025-01-02T22:48:43 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_002_LoginAccountTest -->
-    </test> <!-- master.xml -->
-  </suite> <!-- Suite -->
+      </class> <!-- testCases.TC_004_SimpleTestforGit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
